@@ -1,12 +1,17 @@
 # restapi
 
-# ���̃��|�W�g���ɂ���
-�EAWS�ō\�z����REST API�̃R�[�h����������Ă��܂��B
-�E�R�[�h��AWS Lambda�Ŏ����������̂�py�t�@�C���Ƃ��ėp�ӂ��Ă���܂��B
-�E������@��d�l�ɂ��Ă͕ʓr���A���v���܂��B
-
-# ��������Ă���t�@�C��
-�EPOST�����Ftask_delete.py
-�EGET�����Ftask_get.py
-�EPUT�����Ftask_put.py
-�EDELETE�����Ftask_delete.py
+# このレポジトリについて  
+・AWSで構築したREST APIのコードが同封されています。  
+・コードはAWS Lambdaで実装したものをpyファイルとして用意してあります。  
+・動作方法や仕様については別途ご連絡致します。  
+  
+# 同封されているファイル  
+・POST処理：  
+task_post.py  
+->タスクの新規投稿処理です  
+・GET処理：task_get.py  
+->タスク情報（タイトル、内容）を取得する処理です
+・PUT処理：task_put.py  
+->タスク情報（タイトル、内容）を更新する処理です
+・DELETE処理：task_delete.py  
+->タスク情報を削除する処理です
