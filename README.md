@@ -7,11 +7,14 @@
   
 # 同封されているファイル  
 ・POST処理：  
-task_post.py  
-->タスクの新規投稿処理です  
-・GET処理：task_get.py  
-->タスク情報（タイトル、内容）を取得する処理です
-・PUT処理：task_put.py  
-->タスク情報（タイトル、内容）を更新する処理です
-・DELETE処理：task_delete.py  
-->タスク情報を削除する処理です
+　task_post.py  
+　->タスクの新規投稿処理です  
+・GET処理：  
+　task_get.py  
+　->タスク情報（タイトル、内容）を取得する処理です  
+・PUT処理：  
+　task_put.py  
+　->タスク情報（タイトル、内容）を更新する処理です  
+・DELETE処理：  
+　task_delete.py  
+　->タスク情報を削除する処理です
